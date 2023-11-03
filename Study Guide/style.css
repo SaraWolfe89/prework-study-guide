@@ -11,7 +11,7 @@ margin: 0;
 
 }
 
-div {
+main > div {
     color: blue;
     text-align: justify;
 
@@ -51,10 +51,7 @@ p {
 
 }
 
-header {
-    background-color: blue;
 
-}
 
 .card {
     width: 80%;
@@ -63,7 +60,8 @@ header {
     box-shadow: 5px 10px #888888;
 
 }
-.alpha {
+
+header > div {
     color: white;
-    
+    background-color: blue;
 }
